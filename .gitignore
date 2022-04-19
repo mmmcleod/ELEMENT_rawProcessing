@@ -1,8 +1,14 @@
 # Ignore everything
 *
 
+# Don't ignore directories, so we can recurse into them
+!*/
+
 # But not these files...
 !.gitignore
-!**.m
-!**.R
+!*.m
+!*.R
+
+
+
 
